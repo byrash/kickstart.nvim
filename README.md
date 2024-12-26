@@ -1,5 +1,9 @@
 # kickstart.nvim
 
+rm -rf ~/.config/nvim
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+rm -rf ~/.local/share/nvim* && rm -rf ~/.local/state/nvim* && rm -rf ~/.cache/nvim*
+
 ## Introduction
 
 A starting point for Neovim that is:
